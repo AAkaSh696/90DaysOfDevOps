@@ -1,13 +1,16 @@
 ## Core Components of Linux
-1) kernel: - heart(core of linux)
-           - acts as bridge between hardware and software applications
-           - manages system resources(CPU, disk, memory and processes)
-2) user-space: - place where users and software/applications runs like nginx,docker etc.
-               - communicates with kernel using system calls
-3) init/systemd and why it matters: - first process started with boot(PID 1)
-                 - starts and manages services
-                 - restarts failed services
-                 - handles system logs using journalctl
+1) kernel:
+- heart(core of linux)
+- acts as bridge between hardware and software applications
+- manages system resources(CPU, disk, memory and processes)
+2) user-space:
+- place where users and software/applications runs like nginx,docker etc.
+- communicates with kernel using system calls
+3) init/systemd and why it matters:
+- first process started with boot(PID 1)
+- starts and manages services
+- restarts failed services
+- handles system logs using journalctl
    
 ## How process created and managed 
 "Everything in linux is process" 
