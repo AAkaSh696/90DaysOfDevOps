@@ -11,25 +11,22 @@
    
 ## How process created and managed 
 "Everything in linux is process" 
--Every process is created by another process
--fork()->used by parent process
--child process gets a new PID
--exec() loads the actual program
+- Every process is created by another process
+- fork()->used by parent process
+- child process gets a new PID
+- exec() loads the actual program
 -ps,top->show processes , kill->stop processes , ctrl+z->pause process
--
 
 ## Process States 
--running(R):process uses or ready to use CPU
--sleeping(S):process waits for input or event e.g., user input
--uninterruptable sleep(D): process waiting for disk operation
--stopped(T): process terminated 
--zombie(Z): finished execution but not cleaned by parent
--
+- running(R):process uses or ready to use CPU
+- sleeping(S):process waits for input or event e.g., user input
+- uninterruptable sleep(D): process waiting for disk operation
+- stopped(T): process terminated 
+- zombie(Z): finished execution but not cleaned by parent
 
 ## Useful Command I'd use daily
--cd: change directory 
--ps aux: show running processes
--cat : display,create,combile file contents 
--top: live CPU and memory usage 
--pwd: print working directory 
--
+- cd: change directory
+- ps aux: show running processes
+- cat : display,create,combile file contents 
+- top: live CPU and memory usage 
+- pwd: print working directory 
