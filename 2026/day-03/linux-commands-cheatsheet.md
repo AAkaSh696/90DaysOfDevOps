@@ -16,6 +16,7 @@
 - rm -r: to remove recursively (directory/files)
 - mv: to move or rename file or directory
 - find: search content of files and directories
+- free: show RAM & swap memory information
 ## Networking Troubleshooting 
 - ip addr: view and manage network interfaces addresses
 - ping: check network connectivity btw own system and another system(server,website or ip address)
