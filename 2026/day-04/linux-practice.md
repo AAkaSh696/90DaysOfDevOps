@@ -13,7 +13,7 @@
 - tail -n 5 <filepath/filename> : gives last five logs of file
 
 ## Inspect of one service(nginx) on system (Troubleshooting flow):
--systemctl list-units --type=service | grep nginx: checks nginx is present or not 
--systemctl status nginx:gives status of nginx
--journalctl -u nginx -n 5 : gives last 5 logs of nginx
+- systemctl list-units --type=service | grep nginx: checks nginx is present or not 
+- systemctl status nginx:gives status of nginx
+- journalctl -u nginx -n 5 : gives last 5 logs of nginx
 
