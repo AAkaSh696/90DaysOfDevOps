@@ -1,6 +1,6 @@
 ## Process Management 
-- ps: static snapshot of current  processes
-- ps-aux: detailed snapshot of all currently processes
+- ps: static snapshot of running  processes in current terminal
+- ps-aux: detailed snapshot of all running processes on the system
 - top: dynamic,real time view of running processes and system usage
 - htop: similar to top but provides user friendly interface(modern way)
 - pstree: show parent child relation tree of process
