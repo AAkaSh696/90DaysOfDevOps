@@ -1,0 +1,45 @@
+## Scenario 1: Service Not Starting
+Step 1: [systemctl status nginx]
+Why: [It shows if the service is active,inactive or failed]
+
+Step 2: [journalctl -u nginx -50]
+Why: [If service shows failed , check recent logs of nginx to know the cause (port,permission,configuration etc)]
+
+Step 3: [systemctl is-enabled nginx]
+Why: [To know if it will start automatically after reboot ,if disable then, systemctl enable nginx]
+
+Step 4: [systemctl restart nginx] 
+Why: [Sometimes restarting the service helps to solve the issue]
+
+## Scenario 2: High CPU Usage
+Step 1: [top]
+Why: [Check live usage of CPU]
+
+Step 2: [ps aux --sort=-%cpu | head 10]
+Why: [To check most CPU using processes]
+
+Step 3: [pgrep   & kill]
+Why: [ To get PID of specific process and terminate that process(if not necessary]
+
+## Finding Service Logs
+Step 1: [systemctl status docker]
+Why: [To check the status of docker]
+
+Step 2: [journalctl -u docker -n 10]
+Why: [To view the recent logs(~10) of docker service]
+
+Step 3: [journalctl -u docker -f]
+Why: [To follow logs of docker in real-time]
+
+## Scenario 4: File Permissions Issue
+Step 1: [ls -l /home/user/backup.sh]
+Why: [To check current permission]
+
+Step 2: [chmod +x /home/user/backup.sh]
+Why: [if -x is missing, give it executable permission]
+
+Step 3: [ls -l /home/user/backup.sh]
+Why: [To verify permission change]
+
+Step 4: [./backup.sh]
+Why: [Try execution]
