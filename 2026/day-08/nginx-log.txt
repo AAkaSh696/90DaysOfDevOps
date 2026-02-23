@@ -1,0 +1,4 @@
+Feb 23 16:30:08 ip-172-31-0-22.ap-south-1.compute.internal systemd[1]: Starting nginx.service - The nginx HTTP and reverse proxy server...
+Feb 23 16:30:08 ip-172-31-0-22.ap-south-1.compute.internal nginx[25563]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+Feb 23 16:30:08 ip-172-31-0-22.ap-south-1.compute.internal nginx[25563]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Feb 23 16:30:08 ip-172-31-0-22.ap-south-1.compute.internal systemd[1]: Started nginx.service - The nginx HTTP and reverse proxy server.
