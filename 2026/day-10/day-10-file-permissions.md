@@ -13,7 +13,7 @@
 - notes.txt : 
   - Before : -rw-r--r--
   - After : -rw-r-----
--script.sh :
+- script.sh :
   - Before : -rw-r--r--
   - After : -rwxr-xr-x
 - project :
@@ -36,5 +36,5 @@
   - Linux permission check order: Owner->Group->Others
   - Execute permission is must for run scripts
   - Two ways of change permission by chmod : Numeric (755,640,..) and flag (-w,+x,..)
-  - File Security 
+  - File Security can be  done by permission
   
