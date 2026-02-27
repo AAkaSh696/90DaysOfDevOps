@@ -58,6 +58,6 @@ Top 5 Commands I’d Use in Incident:
 - Get comfortable with log reading
 
 ## Key Takeaways
-Got Familiar with terminal .
-Consistency over perfection.
-Practice builds confidence
+- Got Familiar with terminal .
+- Consistency over perfection.
+- Practice builds confidence
