@@ -1,6 +1,6 @@
 ## Commands Used :
 - sudo su
-- 
+ 
 - lsblk
 - pvs
 - vgs
