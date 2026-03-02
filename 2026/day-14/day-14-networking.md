@@ -27,7 +27,7 @@ One real example : curl http://www.example.com
 
 ## Hands-on Checks
 - identity:
-  - ip addr show
+  - hostname -I
   - Observation: shows my local IP address(172.31.14.114).
 - Reachability:
   - ping google.com
