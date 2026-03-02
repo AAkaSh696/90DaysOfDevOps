@@ -50,7 +50,7 @@ One real example : curl http://www.example.com
 
 ## Mini Port Probe
 - Test SSH port locally:
-- nc -zv localhost 22
+- curl -I http://localhost:22
 
 - Result: Connection successful.
 
