@@ -34,7 +34,7 @@ Run dig google.com:
      - /24=>Subnet mask 255.255.255.0 Total IPs: 256 Usable hosts: 254
      - /16=>Subnet mask 255.255.0.0 Total IPs: 65,536 Usable hosts: 65,534
      - /28=>Subnet mask 255.255.255.240 Total IPs: 16 Usable hosts: 14
-3.Why Subnet? To divide networks into smaller segments.
+3. Why Subnet? To divide networks into smaller segments.
 
 ## Task 4: Ports – The Doors to Services
 1. Port-a logical communication endpoint used by services.
