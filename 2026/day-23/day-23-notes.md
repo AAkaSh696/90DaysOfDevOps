@@ -16,23 +16,25 @@
 8. git branch -d feature-2
 
 ## Task 3: Push to GitHub
-1. 2. 3. 4. 5. (Practical)
+1. (Practical)
+2. P
+3. P 
+4. P
+5.(Practical)
 6. origin is your fork; upstream is the original project you forked from.
 To link them, run: git remote add upstream <original-repo-url>.
 To sync, run: git fetch upstream then git merge upstream/main
 
 ## Task 4: Pull from GitHub
-1. 2. (Practical)
-3. | Command     | What It Does           |
-| ----------- | ---------------------- |
-| `git fetch` | Downloads changes only |
-| `git pull`  | Downloads + merges     |
+1. (Pracrical)
+2.  (Practical)
+3.  - git fetch:  Downloads changes only 
+    - git pull:   Downloads + merges     
 
 ## Task 5: Clone vs Fork
-1. 2. (Practical)
+1. (Practical)
+2.  (Practical)
 3. - Clone downloads a repository to your computer while Fork creates your own copy of someone else's repository on GitHub.
-   - | Action | Use Case                    |
-| ------ | --------------------------- |
-| Clone  | Your own repo               |
-| Fork   | Contributing to open-source |
+- Clone use when : Your own repo             
+- Fork use when : Contributing to open-source 
 - By tapping sync fork button on github
