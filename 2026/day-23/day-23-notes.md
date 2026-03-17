@@ -12,7 +12,8 @@
 3. git switch feature-1
 4. git checkout -b feature-2
 5. git checkout :	old command while git switch : modern branch switch command
-6. 7. (Practical)
+6. (Practical)
+7.  (Practical)
 8. git branch -d feature-2
 
 ## Task 3: Push to GitHub
