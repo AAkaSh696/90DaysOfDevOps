@@ -21,7 +21,7 @@
 2. P
 3. P 
 4. P
-5.(Practical)
+5. (Practical)
 6. origin is your fork; upstream is the original project you forked from.
 To link them, run: git remote add upstream <original-repo-url>.
 To sync, run: git fetch upstream then git merge upstream/main
