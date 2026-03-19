@@ -1,6 +1,6 @@
 ## Day 24 – Advanced Git: Merge, Rebase, Stash & Cherry Pick
 
-** NOTE: For practical , refer to images **
+** NOTE: For practical , refer to images on linkedin **
 
 ## Task 1: Git Merge — Hands-On
 1. Create a new branch feature-login from main, add a couple of commits to it-(Practical)
