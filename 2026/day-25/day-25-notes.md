@@ -33,22 +33,22 @@ Local fixes      | Production fixes
 
 ## Task 4: Branching Strategies
 1. Gitflow: 
-Flow: main(production) -> develop(active dev) se feature,release,hotfix
-Use Case : Large teams, structured releases.
-Pros:  Organized and Stable releases
-Cons: Complex and Slow
+- Flow: main(production) -> develop(active dev) se feature,release,hotfix
+- Use Case : Large teams, structured releases.
+- Pros:  Organized and Stable releases
+- Cons: Complex and Slow
 
 2. Github Flow: 
-Flow: main -> feature branch se merge,deploy,PR etc.
-Use Case: Startups, fast deployment
-Pros: Simple and Fast
-Cons: Less control for big releases
+- Flow: main -> feature branch se merge,deploy,PR etc.
+- Use Case: Startups, fast deployment
+- Pros: Simple and Fast
+- Cons: Less control for big releases
 
 3. Trunk-Based Development:
-   main (everyone commits frequently)
-Use Case: High-speed CI/CD environments
-Pros: Very fast and Less merge conflicts
-Cons: Requires strong discipline
+- Flow: main (everyone commits frequently)
+- Use Case: High-speed CI/CD environments
+- Pros: Very fast and Less merge conflicts
+- Cons: Requires strong discipline
 
 4. - GitHub Flow for startups
    - GitFlow for large team
