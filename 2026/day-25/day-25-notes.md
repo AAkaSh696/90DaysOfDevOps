@@ -96,4 +96,3 @@ Local fixes      | Production fixes
     - Soft Reset: git reset --soft <commit-id>
     - Mixed Reset: git reset --mixed <commit-id>
     - Hard Reset: git reset --hard <commit-id>
-   - 
