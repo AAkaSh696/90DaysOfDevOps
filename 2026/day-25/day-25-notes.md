@@ -6,12 +6,12 @@
 3. Re-commit, then use git reset --mixed to go back one commit — what happens now?- (Practical) ->  Commit removed and  Changes UNSTAGED (back to working directory)
 4. Re-commit, then use git reset --hard to go back one commit — what happens this time?- (Practical) ->  Commit removed Changes DELETED permanently
 5. - --soft  → keeps changes staged
-     ,--mixed → keeps changes unstaged
-     ,--hard  → deletes everything
+     , --mixed → keeps changes unstaged
+     , --hard  → deletes everything
    - hard (because it deletes code permanently)
    - --soft  → fix last commit message
-     ,--mixed → redo commit properly
-     ,--hard  → discard unwanted work completely
+     , --mixed → redo commit properly
+     , --hard  → discard unwanted work completely
    - No, but just only when it necessarily needed
 
 ## Task 2: Git Revert — Hands-On
@@ -32,19 +32,14 @@ Not safe         | Safe for shared branches
 Local fixes      | Production fixes
 
 ## Task 4: Branching Strategies
-1. Gitflow:
-  main ──────────────── production
-  develop ───────────── active dev
-   ├── feature/*
-   ├── release/*
-   └── hotfix/*
+1. Gitflow: 
+Flow: main(production) -> develop(active dev) se feature,release,hotfix
 Use Case : Large teams, structured releases.
 Pros:  Organized and Stable releases
 Cons: Complex and Slow
 
-2. Github Flow:
-   main
- └── feature branch → PR → merge → deploy
+2. Github Flow: 
+Flow: main -> feature branch se merge,deploy,PR etc.
 Use Case: Startups, fast deployment
 Pros: Simple and Fast
 Cons: Less control for big releases
