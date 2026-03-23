@@ -9,11 +9,12 @@
    - Login via browser
 
 ## Task 2: Working with Repositories
-1 & 2. gh repo create myrepo --public --clone --add-readme 
+1  gh repo create myrepo --public --clone --add-readme
+2. gh repo create myrepo --public --clone --add-readme
 3. gh repo view <repo_name>
 4. gh repo list 
 5. gh repo view <repo_name> --web
-6.gh repo delete <repo_name>
+6. gh repo delete <repo_name>
 
 ## Task 3: Issues
 1. gh issue create --repo <repo_name> --title " " --body " " --label " "
@@ -30,9 +31,9 @@
 3. gh pr view 1 --repo <>
 4. gh pr merge 1 --repo <>
 5. - gh pr merge --merge , gh pr merge --squash and gh pr merge --rebase
-   - Step 1: gh pr view 1
-   - Step 2: gh pr checkout 1
-   - Step 3: gh pr review 1 --approve
+-  Step 1: gh pr view 1
+-  Step 2: gh pr checkout 1
+-  Step 3: gh pr review 1 --approve
   
 ## Task 5: GitHub Actions & Workflows (Preview)
 1. gh run list
