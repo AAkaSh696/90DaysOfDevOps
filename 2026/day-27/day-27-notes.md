@@ -19,8 +19,8 @@
 Pinned best repo ( for right now which i have) 
 
 ## Task 5: Clean Up
-Delete empty repos
-Rename unclear repos
+- Delete empty repos
+- Rename unclear repos
 
 ## Task 6: Before & After
 - Improved whole github profile
