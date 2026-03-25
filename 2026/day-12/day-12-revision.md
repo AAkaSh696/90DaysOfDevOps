@@ -32,7 +32,7 @@ Top 5 Commands I’d Use in Incident:
 - sudo useradd squirtle
 - sudo groupadd water-pokemon
 - touch battle.txt
-- sudo chown squirtle:water-pokemon battle.txt
+- sudo chown squirtle battle.txt
 - id squirtle
 - ls -l battle.txt
 
