@@ -69,9 +69,9 @@ Icons for :
 4. Verified your GitHub profile and repos are clean
 
 ## Task 5: Teach It Back
-Dekh mai tujhe sikhane wala hu merge vs squash vs rebase commit mai antar :
+- Topic: merge vs squash vs rebase commit mai antar :
 Sabse pehle merge commit : maanle tere pe 2 branch hai 'main' aur 'dev' aur to dev ke changes ko main mai laana chahta hai toh tu iss 
-branch ko merge karega ( git merge dev ) ko dev ke changes main mai aa jayenge aur ek merge commit ban jayega jo batayega ki tune merge kiya hai .
+branch ko merge karega ( git merge dev ) toh 'dev' ke changes 'main' mai aa jayenge aur ek merge commit ban jayega jo batayega ki tune merge kiya hai .
 Ab rebase : dekh rebase(git rebase main) hota ye hai ki ye dono branches ke commit history ko linear bana deta hai jis se history badhiya lage .
 Ab squash : dekh squash(git merge dev --squash)  mai hota ye hai ki maan le tune dev branches mai kayi kaam kare aur har kaam mai ek commit kiya ab tu final commit ke change ko main 
 mai laana chahta hai aur chahta hai ki bas last commit hee main mai jaaye 
