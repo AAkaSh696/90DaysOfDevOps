@@ -47,6 +47,10 @@ Icons for :
  Done task 2 by practicing lvm and text processing commands and learned that this topic needs memorizing syntax and regular practice.
 
  ## Task 3: Quick-Fire Questions
+ Icons for :
+ - Own ✅
+ - Wrong and google ⚠️
+   
  1. chmod 755 script.sh: it means user can rwx while groups and other can r_x. ✅
  2. A process is any running program, while a service is a specific process that runs continuously in the background to perform system tasks. ⚠️
  3. ps aux | grep :8080 ✅
