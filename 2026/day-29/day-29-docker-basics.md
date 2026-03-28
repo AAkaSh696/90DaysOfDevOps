@@ -1,5 +1,7 @@
 ## Day 29 – Introduction to Docker
 
+NOTE: For Practical go through the images
+
 ## Task 1: What is Docker?
 Docker is a tool that lets you to containerized applications 
 1. Container is  way to package an application with all necessary dependencies and configuration ,this helps in running an application across different systems or machines without setting it up manually .
