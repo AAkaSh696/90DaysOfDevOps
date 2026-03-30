@@ -2,9 +2,9 @@
 
 ## Task 1: Docker Images
 1. Pull the nginx, ubuntu, and alpine images from Docker Hub
-  - docker pull nginx
-  - docker pull ubuntu
-  - docker pull alpine
+   - docker pull nginx
+   - docker pull ubuntu
+   - docker pull alpine
 2. List all images on your machine — note the sizes
    - docker ps -a   
 3. Compare ubuntu vs alpine — why is one much smaller?
@@ -18,11 +18,11 @@
 
 ## Task 2: Image Layers
 1. Run docker image history nginx — what do you see?
-  - it creates layers of each command of dockerfile
-  - It shows:
-    - Layer 1 → base image  
-    - Layer 2 → install packages  
-    - Layer 3 → config  
+   - it creates layers of each command of dockerfile
+   - It shows:
+     - Layer 1 → base image  
+     - Layer 2 → install packages  
+     - Layer 3 → config  
 2. Each line is a layer. Note how some layers show sizes and some show 0B
     - Layers are a stack of read-only filesystem changes, where each Dockerfile instruction creates a new "slice."
     - 0B layers occur because metadata-only commands (like ENV or EXPOSE) don't add physical files to the image.
@@ -31,22 +31,22 @@
 
 ## Task 3: Container Lifecycle
 1. Create a container (without starting it)
-  - docker create nginx
+   - docker create nginx
 2. Start the container
-  - docker start <container_id>
+   - docker start <container_id>
 3. Pause it and check status
-  - docker pause <container_id>
-  - docker ps -a
+   - docker pause <container_id>
+   - docker ps -a
 4. Unpause it
-  - docker unpause <container_id>
+   - docker unpause <container_id>
 5. Stop it
-  - docker stop <container_id>
+   - docker stop <container_id>
 6. Restart it
-  - docker restart <container_id>
+   - docker restart <container_id>
 7. Kill it
-  - docker kill <container_id>
+   - docker kill <container_id>
 8. Remove it
-  - docker rm <container_id>
+   - docker rm <container_id>
 
 ## Task 4: Working with Running Containers
 1. Run an Nginx container in detached mode
@@ -65,11 +65,11 @@
 
 ## Task 5: Cleanup
 1. Stop all running containers in one command
-   - docker stop $(docker ps -q)
+    - docker stop $(docker ps -q)
 2. Remove all stopped containers in one command
-   - docker rm $(docker ps -aq)
+    - docker rm $(docker ps -aq)
 3. Remove unused images
-   - docker rmi <image_id>
+    - docker rmi <image_id>
 4. Check how much disk space Docker is using
-   - docker system df
+    - docker system df
 
