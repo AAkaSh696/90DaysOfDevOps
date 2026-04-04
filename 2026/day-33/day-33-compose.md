@@ -13,13 +13,13 @@
 - Yes, the data is still there because we use named volume i.e., adds local database to it so MYSQL data is stored outside container
 
 ## Task 4: Compose Commands
-docker compose up -d        # run in background
-docker compose ps          # list services
-docker compose logs        # logs
-docker compose logs mysql    # logs of specific service
-docker compose stop        # stop containers
-docker compose down        # remove everything
-docker compose up --build  # rebuild
+- docker compose up -d        # run in background
+- docker compose ps          # list services
+- docker compose logs        # logs
+- docker compose logs mysql    # logs of specific service
+- docker compose stop        # stop containers
+- docker compose down        # remove everything
+- docker compose up --build  # rebuild
 
 ## Task 5: Environment Variables
 (Practical)
