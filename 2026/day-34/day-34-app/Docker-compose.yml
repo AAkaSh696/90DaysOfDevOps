@@ -1,0 +1,42 @@
+version: "3.9"
+
+services:
+
+  db:
+    image: postgres:13
+    restart: always
+    environment:
+      POSTGRES_DB: testdb
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U user -d testdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - my-net
+
+  redis:
+    image: redis:latest
+    networks:
+      - my-net
+
+  web:
+    build: ./app
+    ports:
+      - "5000:5000"
+    networks:
+      - my-net
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: on-failure
+
+volumes:
+  db_data:
+
+networks:
+      my-net:
