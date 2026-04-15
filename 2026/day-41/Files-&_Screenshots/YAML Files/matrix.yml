@@ -1,0 +1,26 @@
+name: Matrix Builds 
+on: 
+    workflow_dispatch:
+
+jobs:
+    validate-python:
+        runs-on: ${{ matrix.os}}
+        strategy:
+            fail-fast: false
+            matrix:
+                os: [windows-latest, macos-latest]
+                python-versions: ["3.10", "3.11", "3.12"]
+                exclude:
+                    - os: windows-latest
+                      python-versions: "3.11"
+        
+        steps:
+            - name: Install python
+              uses: actions/setup-python@v4
+              with:
+                python-version:  ${{ matrix.python-versions}}
+
+            - name: Print python version and os
+              run: |
+                 echo "version is :" ${{ matrix.python-versions}}
+                 echo "os is:" ${{ matrix.os}}
