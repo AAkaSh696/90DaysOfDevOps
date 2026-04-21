@@ -2,8 +2,11 @@
 
 ## For Yaml files and Screenshots 
  Refer to https://github.com/AAkaSh696/90DaysOfDevOps/tree/master/2026/day-45/Files%20and%20Screenshots
+
+## DockerHub Link
+ https://hub.docker.com/repository/docker/aakash969/day45_app/general
  
- ## Full Journey from git push to running containers
+## Full Journey from git push to running containers
 1. Developer pushes code
 2. GitHub Actions triggers
 3. Code is checked out
