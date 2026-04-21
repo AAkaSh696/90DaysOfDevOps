@@ -1,0 +1,25 @@
+name: Upload and Download artifacts
+
+on: 
+    workflow_dispatch:
+
+jobs:
+    upload-artifacts:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Generate file
+              run: echo "Logs adding" > log.txt
+
+            - name: Upload Artifacts
+              uses: actions/upload-artifact@v4
+              with:
+                name: my_log.txt
+                path: log.txt
+
+            - name: Download Artifacts
+              uses: actions/download-artifact@v4
+              with: 
+                name: my_log.txt
+
+            - name: Print content
+              run: cat log.txt
