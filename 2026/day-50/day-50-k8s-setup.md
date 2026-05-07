@@ -54,4 +54,10 @@
 | coredns                 | Internal DNS            |
 | kindnet                 | Pod networking          |
 
+## Screenshots
+<img width="929" height="487" alt="01" src="https://github.com/user-attachments/assets/a170fb16-e78e-4b3f-8da3-0fb2b770a766" />
+<img width="1593" height="917" alt="Screenshot 2026-05-07 161606" src="https://github.com/user-attachments/assets/7f92e5da-2e33-418e-8009-1b028d2e21ed" />
+<img width="1077" height="898" alt="Screenshot 2026-05-07 161923" src="https://github.com/user-attachments/assets/24bdf2e8-b165-45a5-832c-d7f1e308906a" />
+<img width="927" height="815" alt="Screenshot 2026-05-07 162839" src="https://github.com/user-attachments/assets/942d0473-7e96-47fa-8e07-28f3a6e928d7" />
+<img width="1051" height="692" alt="Screenshot 2026-05-07 163832" src="https://github.com/user-attachments/assets/befa4eb9-4bfb-4c31-aa7d-068bbee66527" />
 
