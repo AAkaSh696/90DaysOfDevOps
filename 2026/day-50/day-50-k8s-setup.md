@@ -14,25 +14,25 @@
 <img width="1280" height="630" alt="WhatsApp Image 2026-05-07 at 15 38 45" src="https://github.com/user-attachments/assets/45fbcbb7-b084-4c39-aff5-b105a8803fa9" />
 
 1. What happens when ran  "kubectl apply -f pods.yml" :
-  - kubectl sends request to API Server
-  - API Server validates request
-  - Desired state stored in etcd
-  - Scheduler selects worker node
-  - kubelet receives instructions
-  - Container runtime starts container
-  - Controller Manager continuously checks desired state
+     - kubectl sends request to API Server
+     - API Server validates request
+     - Desired state stored in etcd
+     - Scheduler selects worker node
+     - kubelet receives instructions
+     - Container runtime starts container
+     - Controller Manager continuously checks desired state
 2. What if API Server goes down?
-  - Cluster management stops
-  - New deployments cannot happen
+     - Cluster management stops
+     - New deployments cannot happen
 3. What if Worker Node goes down?
-  - Pods on that node become unavailable
-  - Controller Manager detects failure
-  - Scheduler recreates pods on another healthy node
+     - Pods on that node become unavailable
+     - Controller Manager detects failure
+     - Scheduler recreates pods on another healthy node
 ## Why choose kind:
-- Lightweight
-- User Docker containers
-- Faster setup
-- Perfect for learning
+   - Lightweight
+   - User Docker containers
+   - Faster setup
+   - Perfect for learning
 
 ## What is kubeconfig?
 - kubeconfig is a configuration file used by kubectl to connect to kubernetes clusters.
