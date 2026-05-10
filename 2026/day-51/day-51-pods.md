@@ -22,6 +22,8 @@ Defines desired state like image and ports.
 <img width="446" height="242" alt="Screenshot 2026-05-10 225207" src="https://github.com/user-attachments/assets/f7e07f64-78c7-4ef2-9d61-4a035f8fa9b6" />
 <img width="934" height="482" alt="Screenshot 2026-05-10 225504" src="https://github.com/user-attachments/assets/4f3de280-9ef6-4d1a-84dc-216c89f34a8e" />
 <img width="930" height="475" alt="Screenshot 2026-05-10 230415" src="https://github.com/user-attachments/assets/a23db668-2c9a-4f38-98fd-81f1bf846ec4" />
+<img width="931" height="468" alt="Screenshot 2026-05-10 232308" src="https://github.com/user-attachments/assets/ae8901cc-5fdf-4e5f-b969-fb606a7533ae" />
+
 
 ## Difference between imperative (kubectl run) and declarative (kubectl apply -f)
 - imperative: command-based and hard to track
