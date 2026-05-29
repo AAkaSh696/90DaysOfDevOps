@@ -217,8 +217,12 @@ kubectl get endpoints
 
 This showed all Pod IPs connected to the Service.
 
-<img width="1837" height="950" alt="Screenshot 2026-05-29 224958" src="https://github.com/user-attachments/assets/6c9e1cce-d7bb-41f9-a738-2b6de54a808a" />
-
-
 ---
+<img width="1837" height="950" alt="Screenshot 2026-05-29 224958" src="https://github.com/user-attachments/assets/65c1b7ae-2b31-4b7c-9f0e-7a70969c6f3b" />
+<img width="1506" height="645" alt="Screenshot 2026-05-29 225225" src="https://github.com/user-attachments/assets/942e787d-dfd2-44e1-8a7c-4973ea77d892" />
+<img width="1288" height="579" alt="Screenshot 2026-05-29 225252" src="https://github.com/user-attachments/assets/44f7682c-70e4-444e-9417-fbb80c82a0cd" />
+<img width="675" height="398" alt="Screenshot 2026-05-29 225311" src="https://github.com/user-attachments/assets/0b963b66-a997-49a9-83ab-815ce60f54dc" />
+<img width="1636" height="675" alt="Screenshot 2026-05-29 231249" src="https://github.com/user-attachments/assets/50fd1e57-2c53-4aa0-8aff-8222b000b4e4" />
+<img width="1237" height="660" alt="Screenshot 2026-05-29 231519" src="https://github.com/user-attachments/assets/105c8c9a-266d-485e-bb14-76aa1981913a" />
+<img width="948" height="935" alt="Screenshot 2026-05-29 231845" src="https://github.com/user-attachments/assets/1db50e37-5643-42d7-84c2-0cac0dcd02bc" />
 
