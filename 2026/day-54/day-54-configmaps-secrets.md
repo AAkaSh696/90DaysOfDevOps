@@ -82,19 +82,12 @@ When used as environment variables:
 * Pod restart required for updates
 
 ---
-
-<img width="1837" height="950" alt="Screenshot 2026-05-29 224958" src="https://github.com/user-attachments/assets/c8acca1e-d14a-43ae-8c54-497d989cbd54" />
-<img width="1506" height="645" alt="Screenshot 2026-05-29 225225" src="https://github.com/user-attachments/assets/25d63556-2754-4c00-966a-2771806fb791" />
-<img width="1288" height="579" alt="Screenshot 2026-05-29 225252" src="https://github.com/user-attachments/assets/d7c92ae5-b4ac-4802-9f2c-4a64c79b3721" />
-<img width="675" height="398" alt="Screenshot 2026-05-29 225311" src="https://github.com/user-attachments/assets/e50298f2-8c89-4151-87ab-3a9369430291" />
-<img width="1636" height="675" alt="Screenshot 2026-05-29 231249" src="https://github.com/user-attachments/assets/d6c50f6f-df58-4460-b772-897e617d221d" />
-<img width="1237" height="660" alt="Screenshot 2026-05-29 231519" src="https://github.com/user-attachments/assets/270e74dc-ca2c-4099-936a-d993b81bbfbb" />
-<img width="1378" height="769" alt="Screenshot 2026-05-30 003202" src="https://github.com/user-attachments/assets/c94f6657-8a14-43cc-b3f2-96a49bac39fb" />
-<img width="1436" height="779" alt="Screenshot 2026-05-30 004614" src="https://github.com/user-attachments/assets/021cca70-28c4-43f2-8e54-8682da960643" />
-<img width="801" height="945" alt="Screenshot 2026-05-30 004742" src="https://github.com/user-attachments/assets/a012bd4b-f045-4daf-a6e9-ba8a3f340edf" />
-<img width="1090" height="719" alt="Screenshot 2026-05-30 005440" src="https://github.com/user-attachments/assets/9d5dc334-4c11-4ae9-8deb-0c6f5fc0adfa" />
-<img width="1502" height="402" alt="Screenshot 2026-05-30 005807" src="https://github.com/user-attachments/assets/8e6e6cef-7bc6-4ba6-a548-47a00d1b2eac" />
-<img width="976" height="948" alt="Screenshot 2026-05-30 010053" src="https://github.com/user-attachments/assets/bebf354d-1c7e-4278-920a-143f63a1530d" />
-<img width="1252" height="944" alt="Screenshot 2026-05-30 010546" src="https://github.com/user-attachments/assets/0a5d37b0-d98c-43f8-8539-309835528e10" />
-<img width="1613" height="963" alt="Screenshot 2026-05-30 012244" src="https://github.com/user-attachments/assets/04863b92-353b-4ceb-bfde-f824bf5bb08a" />
-<img width="928" height="296" alt="Screenshot 2026-05-30 012338" src="https://github.com/user-attachments/assets/9c35c8a9-64e9-47e9-a1d9-780c26d006d8" />
+<img width="1378" height="769" alt="Screenshot 2026-05-30 003202" src="https://github.com/user-attachments/assets/266af246-dc13-4f8c-8373-7113d78364af" />
+<img width="1436" height="779" alt="Screenshot 2026-05-30 004614" src="https://github.com/user-attachments/assets/df8016ff-e71f-42be-bbcb-42706cc8d090" />
+<img width="801" height="945" alt="Screenshot 2026-05-30 004742" src="https://github.com/user-attachments/assets/a80d38d6-05fa-4440-82fb-116405ecef8b" />
+<img width="1090" height="719" alt="Screenshot 2026-05-30 005440" src="https://github.com/user-attachments/assets/ccfeea58-ccdd-48fd-9ec4-925a2459eb4b" />
+<img width="1502" height="402" alt="Screenshot 2026-05-30 005807" src="https://github.com/user-attachments/assets/d4411ca3-20f0-4d25-b540-c800b2d65e2e" />
+<img width="976" height="948" alt="Screenshot 2026-05-30 010053" src="https://github.com/user-attachments/assets/06f0fc17-5eb2-4a45-a7cc-c65d77915377" />
+<img width="1252" height="944" alt="Screenshot 2026-05-30 010546" src="https://github.com/user-attachments/assets/f85e67b2-4d9a-4aa3-a53f-3d4488c5e57f" />
+<img width="1613" height="963" alt="Screenshot 2026-05-30 012244" src="https://github.com/user-attachments/assets/b1a1d77f-474c-4ab3-aad5-d6fec71d33da" />
+<img width="928" height="296" alt="Screenshot 2026-05-30 012338" src="https://github.com/user-attachments/assets/e102d6d9-7764-44f8-87ef-1f30e211cd31" />
